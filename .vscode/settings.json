@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Unity SOLID Principle Demo.sln"
+    "dotnet.defaultSolution": "Unity-SOLID-Principle.sln"
 }
