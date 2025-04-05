@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1306919817322092037}
   - component: {fileID: 2808199936074840159}
-  - component: {fileID: 3048662986159434599}
+  - component: {fileID: -120750636008877458}
   m_Layer: 0
   m_Name: Obstacle
   m_TagString: Untagged
@@ -88,7 +88,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3048662986159434599
+--- !u!114 &-120750636008877458
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -97,6 +97,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6500709968241705949}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3084b8a6592bca24f9b4cbdeb4adca8d, type: 3}
+  m_Script: {fileID: 11500000, guid: 8e8e592283fe4c442ae583999fdff0b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  horizontalSpeed: 1.5
