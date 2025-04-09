@@ -25,14 +25,6 @@ public class PlayerController : MonoBehaviour, IMovable, ICollidable
 
     public void OnCollide()
     {
-        // GameManager.Instance.GameOver();
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Obstacle"))
-        {
-            OnCollide();
-        }
+        GameManager.Instance.GameOver();
     }
 }
